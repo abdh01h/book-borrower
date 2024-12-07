@@ -52,7 +52,13 @@ DB_PASSWORD=your_database_password
 php artisan migrate --seed
 ```
 
-7. Lastly, run the project:
+7. Clearing cache
+ 
+```bash
+php artisan optimize:clear
+```
+
+8. Lastly, run the project:
  
 ```bash
 php artisan serve --port 4000
