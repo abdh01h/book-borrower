@@ -4,7 +4,7 @@ A Simple Book Borrowing System
 
 ## Requirements  
 
-This project uses Laravel 11.31, therefore the minimum requirement to run the project as below:
+This project uses Laravel 11.31, therefore the minimum requirements to run the project as below:
 
 - [Composer](https://getcomposer.org/) v2.8.
 - [PHP](https://www.php.net/) v8.3 or higher.
