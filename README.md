@@ -35,7 +35,13 @@ composer install
 cp .env.example .env
 ```
 
-5. Create a new database with your_database_name, your_database_username and your_database_password.
+5. Generate an application key:
+
+```bash
+php artisan key:generate
+```
+
+6. Create a new database with your_database_name, your_database_username and your_database_password.
 
 ```bash
 DB_CONNECTION=mysql
@@ -46,19 +52,19 @@ DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 ```
  
-6. Run database migrations to create the database tables:
+7. Run database migrations to create the database tables:
  
 ```bash
 php artisan migrate --seed
 ```
 
-7. Clearing cache
+8. Clearing cache
  
 ```bash
 php artisan optimize:clear
 ```
 
-8. Lastly, run the project:
+9. Lastly, run the project:
  
 ```bash
 php artisan serve --port 4000
