@@ -35,7 +35,7 @@ composer install
 cp .env.example .env
 ```
 
-5. Create a new database with your_database_name.
+5. Create a new database with your_database_name, your_database_username and your_database_password.
 
 ```bash
 DB_CONNECTION=mysql
@@ -50,6 +50,12 @@ DB_PASSWORD=your_database_password
  
 ```bash
 php artisan migrate --seed
+```
+
+7. Lastly, run the project:
+ 
+```bash
+php artisan serve
 ```
  
  The End
