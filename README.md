@@ -55,7 +55,7 @@ php artisan migrate --seed
 7. Lastly, run the project:
  
 ```bash
-php artisan serve
+php artisan serve --port 4000
 ```
  
  The End
