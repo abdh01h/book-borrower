@@ -6,7 +6,7 @@ A Simple Book Borrowing System
 
 This project uses Laravel 11.31, therefore the minimum requirement to run the project as below:
 
-- [Composer](https://getcomposer.org/) installed.
+- [Composer](https://getcomposer.org/) v2.8.
 - [PHP](https://www.php.net/) v8.3 or higher.
 - [MySQL](https://www.mysql.com/) v8 or higher.
 
@@ -37,8 +37,6 @@ cp .env.example .env
 
 5. Create a new database with your_database_name.
 
-6. Run database migrations to create the database tables:
-
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -48,7 +46,7 @@ DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 ```
  
-7. Run database migrations to create the database tables:
+6. Run database migrations to create the database tables:
  
 ```bash
 php artisan migrate --seed
